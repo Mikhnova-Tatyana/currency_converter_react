@@ -1,0 +1,17 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    padding: 0.5em;
+    border: 1px solid rgb(92, 90, 90);
+    border-radius: 8px;
+    width: 10em;
+  }
+  select {
+    @extend input;
+    width: 5em;
+    margin-left: 1em;
+  }
+}
